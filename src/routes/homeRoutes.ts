@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
         
             <div>
                 <h1>logged in user</h1> 
-                <a href="/logout">logout</a>
+                <a href="/auth/logout">logout</a>
             </div> 
         `);
   } else {
@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
         
             <div>
              <h1>logged out user</h1> 
-             <a href="/login">Login</a>
+             <a href="/auth/login">Login</a>
             </div> 
         `);
   }
